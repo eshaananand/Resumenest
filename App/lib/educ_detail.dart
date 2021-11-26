@@ -210,7 +210,7 @@ class Education_detail extends StatelessWidget {
         onPressed: () {
           _myformKey.currentState!.validate();
           //  _myformKey.currentState!.validate();
-          if (!_myformKey.currentState!.validate()) {
+          if (_myformKey.currentState!.validate()) {
             Navigator.push(context,
                 MaterialPageRoute(builder: (context) => Experience_Details()));
           }

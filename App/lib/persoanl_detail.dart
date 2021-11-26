@@ -232,7 +232,7 @@ class PersonalDetails extends StatelessWidget {
         child: Icon(Icons.arrow_right_alt_sharp),
         onPressed: () {
           _myformKey.currentState!.validate();
-          if (!_myformKey.currentState!.validate()) {
+          if (_myformKey.currentState!.validate()) {
             Navigator.push(context, MaterialPageRoute(builder: (context) => Education_detail() ));
           }
         },

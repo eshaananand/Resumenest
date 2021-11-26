@@ -306,7 +306,7 @@ class Experience_Details extends StatelessWidget {
         child: Icon(Icons.arrow_right_alt_sharp, color: Colors.white),
         onPressed: () {
           _myformKey.currentState!.validate();
-          if (!_myformKey.currentState!.validate()) {
+          if (_myformKey.currentState!.validate()) {
             Navigator.push(context, MaterialPageRoute(builder: (context) => Extra_details() ));
           }
         },

@@ -5,8 +5,6 @@ import 'package:resumantor/signup.dart';
 import 'persoanl_detail.dart';
 
 class Sign_Welc extends StatelessWidget {
-  String name;
-  Sign_Welc({required this.name});
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +46,7 @@ class Sign_Welc extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "$name",
+                        "Name",
                         style: TextStyle(
                           color: Colors.yellow,
                           fontSize: 30,

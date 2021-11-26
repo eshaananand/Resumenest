@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "778397205388",
+    "project_id": "resumenest-9cd33",
+    "storage_bucket": "resumenest-9cd33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778397205388:android:aceaeddad3ca3474ea4ca9",
+        "android_client_info": {
+          "package_name": "com.example.resumantor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778397205388-p757sec6j4mk7uaf05vina9qbghghhl2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resumantor",
+            "certificate_hash": "c92d248167216710b69a44d0e4c30a8af71a587b"
+          }
+        },
+        {
+          "client_id": "778397205388-o6javkpq4fgrmom9smfaeq5jh2j03vr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXXkDlzxrcr6Z6sNAPLfV5b7yV7Mk1_UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778397205388-o6javkpq4fgrmom9smfaeq5jh2j03vr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
